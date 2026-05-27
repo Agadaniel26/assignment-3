@@ -1,10 +1,9 @@
 package com.tochicodes.Q1;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        // Lazy Singleton
+        //Lazy
         System.out.println("Creating three instances of Lazy Singleton...");
         LazySingletonAssignment3.getInstance(1);
         Thread.sleep(2000);
@@ -13,7 +12,7 @@ public class Main {
         LazySingletonAssignment3.getInstance(3);
         System.out.println();
 
-        // Eager Singleton
+        // Eager
         System.out.println("Creating three instances of Eager Singleton...");
         EagerSingletonAssignment3.getInstance(1);
         Thread.sleep(2000);

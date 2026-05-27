@@ -1,7 +1,7 @@
 package com.tochicodes.Q2;
 
 public class LinuxFactory implements GUIFactory{
-    public AbstractTextField createTextField()  { return new WinTextField(); }
-    public AbstractPushButton createPushButton(){ return new WinPushButton(); }
-    public AbstractListBox createListBox()      { return new WinListBox(); }
+    public AbstractTextField createTextField()  { return new LinuxTextField(); }
+    public AbstractPushButton createPushButton(){ return new LinuxPushButton(); }
+    public AbstractListBox createListBox()      { return new LinuxListBox(); }
 }

@@ -7,7 +7,7 @@ public class Assignment3 {
     public Assignment3() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("H:mm:ss:S");
         String formattedDate = dateFormat.format(new Date());
-        System.out.print("Instance created at:"
+        System.out.println("Instance created at:"
                 + formattedDate);
         }
     }

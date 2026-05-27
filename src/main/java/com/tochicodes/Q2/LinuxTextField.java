@@ -2,6 +2,6 @@ package com.tochicodes.Q2;
 
 public class LinuxTextField extends AbstractTextField{
     public void render() {
-        System.out.println("LinuxTextField");
+        System.out.println("Rendering a Linux Field");
     }
 }
